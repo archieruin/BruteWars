@@ -1,0 +1,205 @@
+body {
+    font-family: 'Ponder', sans-serif;
+    color: #ffffff;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url("../img/body-background.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.content .logo {
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+}
+.content .title h1 {
+    margin: 10px 0 0;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1.30;
+}
+.content .title {
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/dashes.png");
+    -webkit-background-size: cover;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 0 4px 32px rgba(0, 0, 0, 1);
+}
+.content .title > h1 > span {
+    color: #e64747;
+}
+
+.content .description {
+    color: #b5b5b5;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content .ip {
+    margin-top: 30px;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+#success_copy {
+    opacity: 0;
+    position: relative;
+    bottom: 10px;
+    left: 28px;
+    margin: 0 auto;
+    color: #1d1d1d;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 2;
+    width: 160px;
+    height: 25px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.content .ip > .ip__sub{
+    /*position: absolute;*/
+    /*left: -50px;*/
+    cursor: default;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    opacity: 0.20;
+}
+
+.content .ip > .ip__copy {
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #e64747;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.content .ip > .ip__copy:hover {
+    color: #e64747;
+    border-color: #fff;
+    border-width: 5px;
+    background-color: #fff;
+    /*box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.60);*/
+}
+
+.content .donate-info {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content .donate-buttons {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .donate-buttons a {
+    text-decoration: none;
+}
+
+.content .donate-buttons .tg__btn {
+    width: 186px;
+    height: 36px;
+    color: #1d1d1d;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 2;
+    margin-right: 12px;
+    border-radius: 20px;
+    background-color: #ffff00;
+    transition: 0.5s ease;
+    box-shadow: 0 5px 10px 0 rgba(255, 255, 0, 0.60);
+}
+
+.content .donate-buttons .vk__btn {
+    width: 36px;
+    height: 36px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 3;
+    border-radius: 20px;
+    background-color: #4a76a8;
+    transition: 0.5s ease;
+    box-shadow: 0 5px 10px 0 rgba(74, 118, 168, 0.60);
+}
+
+.content .donate-buttons .tg__btn:hover {
+    color: #0e0e0e;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 15px 0 rgba(255, 255, 0, 0.40);
+}
+
+.content .donate-buttons .vk__btn:hover {
+    color: #e0e0e0;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 15px 0 rgba(74, 118, 168, 0.40);
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer .copyright {
+    opacity: 0.18;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.footer .yotubers-info {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.footer .yotubers-info a {
+    text-decoration: none;
+}
+
+.footer .yotubers-info span {
+    color: #ff0000;
+}
+
+.footer .yotubers-info .youtube__btn {
+    color: #fff;
+    width: 160px;
+    height: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2.2;
+    border-radius: 6px;
+    background-color: #ff0000;
+    transition: 0.5s ease;
+    box-shadow: 0 5px 10px 0 rgba(255, 0, 0, 0.60);
+}
+
+.footer .yotubers-info .youtube__btn:hover {
+    color: #e0e0e0;
+    transform: translate(-50%, -53%);
+    box-shadow: 0 7px 14px 0 rgba(255, 0, 0, 0.40);
+}
